@@ -1,0 +1,2 @@
+gcc simulation_v2.c settingsWindow.c drawFunctions.c being_struct.c  helpfulFunctions.c dSFMT.c -DDSFMT_MEXP=521 -O3 -pg -lGL -lGLU -lglut -lpthread -lm -g -o simulation_v2
+./simulation_v2
