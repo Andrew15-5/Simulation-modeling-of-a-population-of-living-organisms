@@ -14,6 +14,8 @@ const double AUDACITY_WEIGHT_COEFFICIENT = 0.45,
 const int AUDACITY_LOW_THRESHOLD = 25;
 static int distSqr;
 
+extern struct MinStruct Min;
+extern struct MaxStruct Max;
 
 inline double LeftFOVAngle(Being b){
   return b.Direction + b.FOV / 2;}

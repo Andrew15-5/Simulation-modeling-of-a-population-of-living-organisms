@@ -13,6 +13,9 @@
 #include <string.h>
 #include "dSFMT.h"
 
+struct MinStruct Min;
+struct MaxStruct Max;
+
 static struct
 {
   GLfloat Idle[3], Hunting[3], Running[3], Black[3], White[3];

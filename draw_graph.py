@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import matplotlib.pyplot as p
 
@@ -22,7 +23,7 @@ fig, ax = p.subplots()
 mng = p.get_current_fig_manager()
 mng.full_screen_toggle()
 
-fig.canvas.set_window_title('Population dynamics')
+ax.set_title('Population dynamics')
 ax.axis([0,width,0,height])
 ax.set_xlabel('Time')
 ax.set_ylabel('Beings alive')

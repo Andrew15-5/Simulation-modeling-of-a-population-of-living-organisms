@@ -1,3 +1,6 @@
+#ifndef HELPFULFUNCTIONS_H
+#define HELPFULFUNCTIONS_H
+
 #define PI 3.1415926535
 
 // For struct
@@ -19,3 +22,5 @@ void ShrinkNum(char *b);
 
 // For main window
 int len(int x);
+
+#endif /* HELPFULFUNCTIONS_H */

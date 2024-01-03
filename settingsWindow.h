@@ -1,3 +1,6 @@
+#ifndef SETTINGSWINDOW_H
+#define SETTINGSWINDOW_H
+
 void SetColors();
 void SettingsInitRendering();
 void SettingsReshape(int w, int h);
@@ -15,3 +18,5 @@ void Keyboard(unsigned char key, int x, int y);
 void Mouse(int button, int state, int x, int y);
 void NoDrawing();
 void Update(int value);
+
+#endif /* SETTINGSWINDOW_H */

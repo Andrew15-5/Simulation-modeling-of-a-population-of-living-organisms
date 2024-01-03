@@ -1,3 +1,6 @@
+#ifndef BEING_STRUCT_H
+#define BEING_STRUCT_H
+
 typedef struct Being Being;
 
 enum STATUS {Idle,Hunting,Running,Fighting,Dead};
@@ -19,19 +22,19 @@ struct Being
       Status;
 };
 
-struct
+struct MinStruct
 {
   int x, y;
   int Weight;
   double Audacity, FOV, DOV;//dov without weight diameter
-} Min;
+};
 
-struct
+struct MaxStruct
 {
   int x, y;
   int Weight;
   double Audacity, FOV, DOV;//fov max 179; dov without weight diameter
-} Max;
+};
 
 double LeftFOVAngle(Being b);
 double RightFOVAngle(Being b);
@@ -64,3 +67,5 @@ void Fight(Being *first, Being *second);
 
 // Initialize struct fields with random Value in interval [Min.Value; Max.Value]
 void InitStruct(Being *b, int index);
+
+#endif /* BEING_STRUCT_H */
