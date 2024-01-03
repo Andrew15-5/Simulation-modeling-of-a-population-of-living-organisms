@@ -1,3 +1,4 @@
+// Copyright (C) 2019-2023  Andrew Voynov
 #ifndef BEING_STRUCT_H
 #define BEING_STRUCT_H
 

@@ -1,3 +1,4 @@
+// Copyright (C) 2019-2023  Andrew Voynov
 #include "global_things.h"
 #include "being_struct.h"
 #include "helpfulFunctions.h"

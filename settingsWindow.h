@@ -1,3 +1,4 @@
+// Copyright (C) 2019-2023  Andrew Voynov
 #ifndef SETTINGSWINDOW_H
 #define SETTINGSWINDOW_H
 

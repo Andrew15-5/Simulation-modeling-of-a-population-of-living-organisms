@@ -1,3 +1,4 @@
+// Copyright (C) 2019-2023  Andrew Voynov
 #define PI 3.1415926535
 #include "global_things.h"
 #include "drawFunctions.h"

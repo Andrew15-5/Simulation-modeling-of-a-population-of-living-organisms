@@ -1,3 +1,4 @@
+// Copyright (C) 2019-2023  Andrew Voynov
 #ifndef HELPFULFUNCTIONS_H
 #define HELPFULFUNCTIONS_H
 
